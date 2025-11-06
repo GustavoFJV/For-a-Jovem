@@ -1,7 +1,9 @@
-op = int(input("Digite o número: "))
+print ("Selecione a opção")
+print ("1 - par ou ímpar.")
+print ("2 - maior ou menor.")
+print ("3 - veja o dobro.")op = int(input("Digite o número: "))
 match op:
     case 1:
-        print ("1 - par ou ímpar.")
         num = int(input("Escolha um número: "))
         if num %2 ==0:
             print (f"{num} é par.") #print(num, "é par.")
@@ -22,3 +24,4 @@ match op:
     print(f"Opção {a} é {dobro}")  
     case _:
     print("Opção inválida")
+
